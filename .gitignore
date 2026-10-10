@@ -73,6 +73,9 @@ out/
 ######################
 /log/
 /target/
+# maven-release-plugin scratch files, present between release:prepare and release:clean
+release.properties
+*.releaseBackup
 
 ######################
 # Gradle
